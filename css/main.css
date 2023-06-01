@@ -1,0 +1,84 @@
+.main_content {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1200px;
+}
+
+.main_content h2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.main_content p {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.main_content .inner {
+    display: flex;
+    gap: 30px;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.main_content .inner figure {
+    flex: 1;
+}
+
+.main_content .inner figure img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.main_visual {
+    position: relative;
+    height: 100vh;
+    background: url(../image/mainvisual01.jpg) no-repeat center center/cover;
+}
+
+.main_visual .itm {
+    display: flex;
+    position: absolute;
+    width: 1200px;
+    height: 150px;
+    background: #fff;
+    bottom: 0;
+    right: 0;
+}
+
+.main_visual .itm .itm01 {
+    position: absolute;
+    /* top: 50%; */
+    /* left: 50%; */
+    inset: 50% auto auto 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main_visual .itm .itm02 {
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    display: flex;
+    align-items: center;
+    transform: translate(-50%, -50%);
+}
+
+.main_visual .itm .itm03 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0 0 0 -600px;
+    /* 실습 아니면 585 */
+    transform: translate(0, -50%);
+}
+
+.main_product {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1200px;
+}
+
+.main_product .inner {
+    display: grid;
+}
